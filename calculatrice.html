@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculatrice</title>
+        <link rel="stylesheet" href="calculatrice.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+            <form>
+                <h1>Calculatrice</h1>
+                <label for="number1"></label>
+                <input type="number" id="number1" name="number1" value="0">
+                <select name="operateur" id="operateur">
+                    <option id="addition">+</option>
+                    <option id="soustraction">-</option>
+                    <option id="multiplication">*</option>
+                    <option id="division">/</option>
+                </select>
+                <label for="number2"></label>
+                <input type="number" id="number2" name="number2" value="0">
+            </form>
+            <button>Calculer</button>
+        </div>
+
+        <script src="calculatrice.js"></script>
+    </body>
+</html>
